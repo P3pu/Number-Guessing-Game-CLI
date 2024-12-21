@@ -51,15 +51,13 @@ Please select the difficulty level:
 
 Enter your choice: 2
 
-Let the game begin!
-
-Attempt 1/5 - Enter your guess: 50
+Enter your guess: 50
 Incorrect! The number is greater than 50.
 
-Attempt 2/5 - Enter your guess: 75
+Enter your guess: 75
 Incorrect! The number is less than 75.
 
-Attempt 3/5 - Enter your guess: 60
+Enter your guess: 60
 Congratulations! You guessed the correct number in 3 attempts.
 
 Wanna play again? (y/n): n

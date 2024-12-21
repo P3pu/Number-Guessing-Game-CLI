@@ -25,6 +25,7 @@ const again = async () => {
             await run()
         }
         else if (play.toLowerCase().trim() === "n") {
+            console.log('Thanks for playing!')
             rl.close();
         }
         else {
@@ -55,8 +56,7 @@ const numberGuess = async (attempts,random) => {
 const showMenu = () => {
     try {
         console.log('\nWelcome to the Number Guessing Game!');
-        console.log("I'm thinking of a number between 1 and 100.")
-        console.log("You have 5 chances to guess the correct number.\n")
+        console.log("I'm thinking of a number between 1 and 100.\n")
         console.log('Please select the difficulty level:\n1. Easy (10 chances)\n2. Medium (5 chances)\n3. Hard (3 chances)')
     } catch (error) {
         console.log(`error - showMenu: ${error}`)
